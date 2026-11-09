@@ -1,0 +1,11 @@
+{
+  "files": [
+    "person.py",
+    "employee.py",
+    "customer.py",
+    "regular_customer.py",
+    "main.py"
+  ],
+  "ignore": [],
+  "max": 5
+}

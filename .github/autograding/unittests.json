@@ -1,0 +1,74 @@
+[
+  {
+    "name": "test_person_initialisation",
+    "function": "test_person_initialisation",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_set_get_address",
+    "function": "test_set_get_address",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_person_print",
+    "function": "test_person_print",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_employee_initialisation",
+    "function": "test_employee_initialisation",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_set_get_salary",
+    "function": "test_set_get_salary",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_employee_print",
+    "function": "test_employee_print",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_customer_initialisation",
+    "function": "test_customer_initialisation",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_set_get_client_advisor",
+    "function": "test_set_get_client_advisor",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_customer_print",
+    "function": "test_customer_print",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_regular_customer_initialisation",
+    "function": "test_regular_customer_initialisation",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_get_set_discount",
+    "function": "test_get_set_discount",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_regular_customer_print",
+    "function": "test_regular_customer_print",
+    "timeout": 10,
+    "points": 1
+  }
+]
