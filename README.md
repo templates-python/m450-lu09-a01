@@ -1,7 +1,7 @@
 # M450 LU09.A01 - Code mit Linter verbessern
 
-Nutze ein Linter-Programm, um Schwächen im Sourcecode zu entdecken und zu
-verbessern.
+Vergleichen Sie zu zweit die Linter **pylint** und **ruff**: konfigurieren,
+Code analysieren, Meldungen beurteilen.
 
 Wiki: <https://wiki.bzz.ch/modul/m450/learningunits/lu09/aufgaben/linter>
 
@@ -10,20 +10,24 @@ Wiki: <https://wiki.bzz.ch/modul/m450/learningunits/lu09/aufgaben/linter>
 Das Repository enthält eine kleine Klassenhierarchie (`Person`, `Employee`,
 `Customer`, `RegularCustomer`) mit den passenden Unittests. Der Code
 funktioniert, hält sich aber nicht überall an die
-[Coding Standards](https://wiki.bzz.ch/howto/codingstandards/start).
+[BZZ Codingstandards](https://wiki.bzz.ch/howto/codingstandards/start).
 
 ## Auftrag
 
-1. Wähle einen Linter aus und passe seine Konfiguration so an, dass sie
-   möglichst genau den Coding Standards entspricht. Dokumentiere deine
-   Einstellungen.
-2. Analysiere den Sourcecode mit deinem Linter: Wie viele Fehler bzw. «code
-   smells» wurden entdeckt? Welche Arten von Fehlern? Wie viele davon sind gar
-   keine Fehler (false positive)?
-3. Verbessere den Code anhand der Meldungen. Die Unittests müssen dabei
-   weiterhin bestehen.
-4. Tragt die Ergebnisse als Gruppe zusammen und ladet den Vergleich als PDF in
-   Moodle hoch (siehe Wiki).
+1. **Vorbereitung:** Person A arbeitet mit pylint, Person B mit ruff
+   (Dreiergruppe: Person C mit flake8). Installieren Sie Ihren Linter:
+   `pip install pylint` bzw. `pip install ruff`.
+2. **Konfigurieren:** Erstellen Sie eine Konfigurationsdatei
+   (`pyproject.toml`, `.pylintrc` oder `ruff.toml`), die möglichst genau den
+   Codingstandards entspricht. Mindestens: Zeilen bis 120 Zeichen,
+   Docstrings für Klassen und Methoden, `snake_case` bzw. `PascalCase`.
+3. **Analysieren und beurteilen:** Wie viele Meldungen? Welche Arten? Welche
+   sind *false positive*? Suchen Sie zwei Mängel, die Ihr Linter **nicht**
+   meldet.
+4. **Vergleichen:** Füllen Sie zu zweit die Vergleichstabelle im Wiki aus und
+   laden Sie sie als eine Seite PDF in Moodle hoch.
+5. **Wer fertig ist:** Korrigieren Sie alle echten Meldungen im Code. Die
+   Unittests müssen weiterhin bestehen.
 
 ## Lokal testen
 
