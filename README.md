@@ -24,8 +24,8 @@ funktioniert, hält sich aber nicht überall an die
 3. **Analysieren und beurteilen:** Wie viele Meldungen? Welche Arten? Welche
    sind *false positive*? Suchen Sie zwei Mängel, die Ihr Linter **nicht**
    meldet.
-4. **Vergleichen:** Füllen Sie zu zweit die Vergleichstabelle im Wiki aus und
-   laden Sie sie als eine Seite PDF in Moodle hoch.
+4. **Vergleichen:** Füllen Sie zu zweit die Vergleichstabelle im Wiki aus.
+   Jede Person lädt sie als eine Seite PDF selbst in Moodle hoch.
 5. **Wer fertig ist:** Korrigieren Sie alle echten Meldungen im Code. Die
    Unittests müssen weiterhin bestehen.
 
